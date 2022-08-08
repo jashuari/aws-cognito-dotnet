@@ -1,5 +1,4 @@
-# **AWS Cognito use cases**
-### Register/ConfirmCode/Login.
+# **AWS Cognito Use Cases**
 
 This API offers Register and Authenticate with Amazon Cognito User Pools.
 
@@ -10,7 +9,7 @@ The API was build using C# .Net Core 6.0.
 **Prerequisite**
 1. Need to have an AWS account
 2. Create a User Pool in cognito service
-
+## 
 **Register**
 
 Register a user in aws cognito
@@ -18,7 +17,7 @@ Register a user in aws cognito
 post /api/account/register
 
 A verification code will be sent to your email.
- 
+ ## 
 **ActivateEmail**
 
 Activates the user.
@@ -26,7 +25,7 @@ Activates the user.
 post /api/Account/ActivateCode/{code}/{email}
 
 Write the code and the email to Enable the account.
-
+## 
 **Login**
  
 post /api/Account/Login
